@@ -1,0 +1,37 @@
+{
+  "name": "@iondv/meta-model",
+  "license": "Apache License 2.0",
+  "engines": {
+    "node": ">=13"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "bugs": {
+    "url": "https://github.com/iondv/framework/issues"
+  },
+  "private": true,
+  "repository": {
+    "url": "https://github.com/iondv/meta-model.git",
+    "type": "git"
+  },
+  "homepage": "https://iondv.com",
+  "version": "2.0.0",
+  "dependencies": {
+    "@iondv/acl-contracts": "iondv/acl-contracts#semver:^2.0.0",
+    "@iondv/commons": "iondv/commons#semver:^2.0.1",
+    "@iondv/commons-contracts": "iondv/commons-contracts#semver:^2.0.1",
+    "@iondv/core": "iondv/core#semver:^2.0.0",
+    "@iondv/db": "iondv/db#semver:^2.0.1",
+    "@iondv/db-contracts": "iondv/db-contracts#semver:^2.0.0",
+    "@iondv/i18n": "iondv/i18n#semver:^0.0.1",
+    "@iondv/meta-model-contracts": "iondv/meta-model-contracts#semver:^2.0.3",
+    "clone": "^2.1.2",
+    "crypto": "^1.0.1",
+    "fast-clone": "^1.5.13",
+    "merge": "^2.1.0",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "uuid": "^8.3.2"
+  }
+}
